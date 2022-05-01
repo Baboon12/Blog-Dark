@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>Bloggy Admin</title>
+    <link rel="shortcut icon" href="../assets/icon.png" type="image/x-icon">
 
     
 

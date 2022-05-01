@@ -31,6 +31,7 @@ include('admin/config/dbconfig.php');
     <meta name="author" content="Bhavya">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/sticky-footer.css">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
 </head>
 
 <body class="bg-dark">
