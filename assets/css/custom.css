@@ -1,0 +1,172 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat',  sans-serif;
+}
+
+body {
+  color: #ced6e0;
+}
+
+.primary_btn {
+  background-color: #5c2a9d !important;
+  margin-top: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+  border-radius: 10px;
+}
+
+.secondary_btn {
+  padding: 10px;
+  width: 40%;
+  margin: 0 20px;
+  border: 1px solid #ced6e0;
+  font-weight: 550;
+  border-radius: 10px;
+  font-size: 16px;
+  background: transparent;
+  color: #fff;
+}
+
+.parent_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+}
+
+.container {
+  margin: 10px 0;
+  width: 380px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.header {
+  border-bottom: 2px solid #ced6e0;
+  padding: 15px 40px;
+}
+
+.header h2 {
+  margin: 0px;
+}
+
+.form {
+  padding: 12px 35px;
+}
+
+.form-control {
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  border: none !important;
+  background: #212529 !important;
+  color: #ced6e0 !important;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.form-control input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  display: block;
+  width: 100%;
+  border: 1px solid #ced6e0;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 3px;
+  font-family: inherit;
+  border: none;
+  border-bottom: 1px solid #ced6e0 !important;
+  box-shadow: none !important;
+  background: #212529 !important;
+  color: white !important;
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-control.success input {
+  border-color: #1cff15;
+}
+
+.form-control.error input {
+  border-color: #f51d05;
+}
+
+.form-control.success i.uis-check-circle {
+  visibility: visible;
+  color: #1cff15;
+}
+
+.form-control.error i.uis-exclamation-circle {
+  visibility: visible;
+  color: #f51d05;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #f51d05;
+}
+
+.form-control i {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+button {
+  background: none;
+  font-size: 18px;
+  padding: 3px;
+  border: 1px solid #ced6e0;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  width: 40%;
+  margin-left: 10px;
+  border-radius: 2px;
+}
+
+#Submit_Message {
+  color: red;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: 15px;
+}
+
+#forgot_pass {
+  line-height: 2.8em;
+  text-decoration: none;
+  color: #ced6e0;
+  margin-left: 12em;
+}
+
+.test {
+  width: 380px;
+  max-width: 100%;
+  padding: 0;
+  margin-top: 10px;
+}
